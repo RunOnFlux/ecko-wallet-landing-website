@@ -12,7 +12,7 @@ export const TWITTER = {
 };
 export const DISCORD = {
   name: 'Discord',
-  link: '',
+  link: 'https://discord.gg/runonflux',
   icon: <DiscordIcon />,
 };
 
@@ -24,12 +24,12 @@ const GITHUB = {
 
 const TELEGRAM = {
   name: 'Telegram',
-  link: '',
+  link: 'https://t.me/runonflux',
   icon: <TelegramIcon />,
 };
 const YOUTUBE = {
   name: 'Youtube',
-  link: '',
+  link: 'https://www.youtube.com/channel/UCphbdfb1MXYgUPsdhQPcnGw',
   icon: <YoutubeIcon />,
 };
 
