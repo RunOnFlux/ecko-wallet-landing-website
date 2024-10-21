@@ -22,11 +22,11 @@ export const FOOTER_ABOUT = {
       text: 'Roadmap',
       href: '/#roadmap',
     },
-    {
-      text: 'Blog',
-      href: 'https://blog.ecko.finance',
-      target: '_blank',
-    },
+    // {
+    //   text: 'Blog',
+    //   href: 'https://blog.ecko.finance',
+    //   target: '_blank',
+    // },
   ],
 };
 export const FOOTER_DOWNLOAD = {
