@@ -13,7 +13,7 @@ const Item = styled.a`
   }
 `;
 
-const NavigationItems = ({ fontSize, color, onClick, disableHover, hideKaddex }) => {
+const NavigationItems = ({ fontSize, color, onClick, disableHover }) => {
   return (
     <>
       <NavigationItem href="/#features" fontSize={fontSize} color={color} onClick={onClick} disableHover={disableHover}>
@@ -30,31 +30,24 @@ const NavigationItems = ({ fontSize, color, onClick, disableHover, hideKaddex })
       </NavigationItem>
 
       <NavigationItem
-        href="https://blog.ecko.finance"
+        href="https://runonflux.com"
         target="_blank"
         fontSize={fontSize}
         color={color}
         onClick={onClick}
         disableHover={disableHover}
       >
-        Blog
+        Flux
       </NavigationItem>
-
-      {!hideKaddex && (
-        <NavigationItem
-          href="https://dex.ecko.finance"
-          target="_blank"
-          fontSize={fontSize}
-          color={color}
-          onClick={onClick}
-          disableHover={disableHover}
-        >
-          eckoDEX
-        </NavigationItem>
-      )}
-
-      <NavigationItem href="https://dao.ecko.finance" target="_blank" fontSize={fontSize} color={color} onClick={onClick} disableHover={disableHover}>
-        eckoDAO
+      <NavigationItem
+        href="https://zelcore.io"
+        target="_blank"
+        fontSize={fontSize}
+        color={color}
+        onClick={onClick}
+        disableHover={disableHover}
+      >
+        Zelcore
       </NavigationItem>
     </>
   );

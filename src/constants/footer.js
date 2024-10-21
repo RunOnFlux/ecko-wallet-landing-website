@@ -57,17 +57,6 @@ export const FOOTER_DOWNLOAD = {
       target: '_blank',
       icon: <BraveIcon />,
     },
-
-    {
-      text: 'eckoDEX',
-      href: 'https://dex.ecko.finance',
-      target: '_blank',
-    },
-    {
-      text: 'eckoDAO',
-      href: 'https://dao.ecko.finance',
-      target: '_blank',
-    },
   ],
 };
 export const FOOTER_LEARN = {

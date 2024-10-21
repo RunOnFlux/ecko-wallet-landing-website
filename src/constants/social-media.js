@@ -18,7 +18,7 @@ export const DISCORD = {
 
 const GITHUB = {
   name: 'Github',
-  link: 'https://github.com/eckoDAO-org/ecko-wallet-landing-website',
+  link: 'https://github.com/runonflux',
   icon: <GithubIcon />,
 };
 
