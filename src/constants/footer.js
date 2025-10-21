@@ -70,7 +70,7 @@ export const FOOTER_LEARN = {
     }, */
     {
       text: 'Documentation',
-      href: 'https://docs.ecko.finance/eckodao/getting-started/eckowallet',
+      href: 'https://docs.eckowallet.com',
       target: '_blank',
     },
     {

@@ -147,29 +147,153 @@ const CONFIGURATION = {
       y: 662,
       tspan: [{ x: -85, y: 0, text: 'NFTs integration' }],
     },
+    color: theme.colors.lightYellow,
+  },
+
+  FIAT_OFF_RAMP: {
+    circle: { x: 1240, y: 596 },
+    text: {
+      x: 1254,
+      y: 662,
+      tspan: [{ x: -70.61, y: 0, text: 'Fiat off Ramp' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  INFRASTRUCTURE_MIGRATION: {
+    circle: { x: 1490, y: 596 },
+    text: {
+      x: 1420,
+      y: 662,
+      tspan: [
+        { x: 30, y: 0, text: 'Infrastructure' },
+        { x: 25, y: 25, text: 'to RunOnFlux' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  CI_CD: {
+    circle: { x: 1490, y: 400 },
+    text: {
+      x: 1450,
+      y: 365,
+      tspan: [
+        { x: 0, y: 0, text: 'CI/CD &' },
+        { x: -15, y: 25, text: 'Test Suite' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  INTERNATIONALIZATION: {
+    circle: { x: 1240, y: 400 },
+    text: {
+      x: 1190,
+      y: 365,
+      tspan: [
+        { x: 10, y: 0, text: '30+ Languages' },
+        { x: 25, y: 25, text: 'Support' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  DARK_THEME: {
+    circle: { x: 990, y: 400 },
+    text: {
+      x: 960,
+      y: 365,
+      tspan: [{ x: 0, y: 0, text: 'Dark Theme' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  AUTO_TOKEN_DETECTION: {
+    circle: { x: 740, y: 400 },
+    text: {
+      x: 690,
+      y: 365,
+      tspan: [
+        { x: 10, y: 0, text: 'Auto Token' },
+        { x: 15, y: 25, text: 'Detection' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  ANALYTICS_DASHBOARD: {
+    circle: { x: 490, y: 400 },
+    text: {
+      x: 450,
+      y: 365,
+      tspan: [
+        { x: 0, y: 0, text: 'Analytics' },
+        { x: -5, y: 25, text: 'Dashboard' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  WALLETCONNECT_V2: {
+    circle: { x: 490, y: 220 },
+    text: {
+      x: 440,
+      y: 285,
+      tspan: [{ x: 0, y: 0, text: 'WalletConnect v2' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  HARDWARE_WALLET: {
+    circle: { x: 740, y: 220 },
+    text: {
+      x: 700,
+      y: 285,
+      tspan: [
+        { x: 0, y: 0, text: 'Hardware Wallet' },
+        { x: 20, y: 25, text: '(Ledger)' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  SPIREKEY: {
+    circle: { x: 990, y: 220 },
+    text: {
+      x: 950,
+      y: 285,
+      tspan: [
+        { x: 0, y: 0, text: 'SpireKey' },
+        { x: -10, y: 25, text: 'Integration' },
+      ],
+    },
     color: '#FA41A5',
   },
 
-  SDK_EASY_INTEGRATION_KIT: {
-    circle: { x: 1240, y: 596 },
+  KADENA_INDEXER: {
+    circle: { x: 1240, y: 220 },
     text: {
-      x: 1205,
-      y: 662,
+      x: 1185,
+      y: 285,
       tspan: [
-        { x: 10, y: 0, text: 'SDK easy' },
-        { x: -26, y: 25, text: 'integration kit' },
+        { x: 10, y: 0, text: 'Kadena Indexer' },
+        { x: 15, y: 25, text: 'Infrastructure' },
       ],
     },
     color: whiteGrey,
   },
-  FIAT_OFF_RAMP: {
-    circle: { x: 1490, y: 596 },
-    text: {
-      x: 1514,
-      y: 662,
-      tspan: [{ x: -70.61, y: 0, text: 'Fiat off Ramp' }],
-    },
 
+  SDK_DOCUMENTATION: {
+    circle: { x: 1490, y: 220 },
+    text: {
+      x: 1440,
+      y: 285,
+      tspan: [
+        { x: 5, y: 0, text: 'SDK Docs' },
+        { x: -5, y: 25, text: '& Guides' },
+      ],
+    },
     color: whiteGrey,
   },
 };

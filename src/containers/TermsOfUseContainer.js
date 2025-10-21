@@ -21,24 +21,24 @@ const TermsOfUseContainer = () => {
           eckoWALLET TERMS OF USE
         </Label>
         <Label fontSize={22} fontFamily="medium">
-          Last Modified: February 20, 2023
+          Last Modified: January 21, 2025
         </Label>
 
         <Label fontSize={32} fontFamily="medium">
           Acceptance of the Terms of Use
         </Label>
         <Label fontSize={20} style={{ wordBreak: 'break-word' }} fontFamily="medium">
-          These terms of use are entered into by and between you and eckoDAO, a Swiss non-profit association (collectively, the “Company,” “we,” or
-          “us”) and eckoHUB DMCC, a UAE LLC which hosts eckoWALLET IP for the association. The following terms and conditions, together with any
-          documents they expressly incorporate by reference (collectively, “Terms of Use”), govern your access to and use of www.wallet.ecko.finance
-          (“Website”) and the eckoWALLET application, including any content, functionality, and services offered on or through the Website or such
-          application (collectively, “eckoWALLET”).
+          These terms of use are entered into by and between you and InFlux Technologies Limited, a company incorporated in the United Kingdom
+          (collectively, the "Company," "we," or "us"). The following terms and conditions, together with any documents they expressly incorporate
+          by reference (collectively, "Terms of Use"), govern your access to and use of www.eckowallet.com and related web properties ("Website")
+          and the eckoWALLET application, including any content, functionality, and services offered on or through the Website or such application
+          (collectively, "eckoWALLET").
           <br />
           <br />
           Please read the Terms of Use carefully before you start to use eckoWALLET. By using eckoWALLET or by clicking to accept or agree to the
           Terms of Use when this option is made available to you, you accept and agree to be bound and abide by these Terms of Use, including our
-          Privacy Policy, found at [https://wallet.ecko.finance/privacy-policy], incorporated herein by reference and as amended from time to time
-          (“Privacy Policy”). If you do not want to agree to these Terms of Use (including the Privacy Policy), you must not access or otherwise use
+          Privacy Policy, found at [https://eckowallet.com/privacy-policy], incorporated herein by reference and as amended from time to time
+          ("Privacy Policy"). If you do not want to agree to these Terms of Use (including the Privacy Policy), you must not access or otherwise use
           eckoWALLET.
           <br />
           <br />
@@ -394,14 +394,14 @@ const TermsOfUseContainer = () => {
         </Label>
         <Label fontSize={20} fontFamily="medium">
           All matters relating to eckoWALLET and these Terms of Use, and any dispute or claim arising therefrom or related thereto (in each case,
-          whether in contract, tort, or otherwise), shall be governed by and construed in accordance with the internal laws of Switzerland.
+          whether in contract, tort, or otherwise), shall be governed by and construed in accordance with the laws of England and Wales.
           <br />
           <br />
-          Any legal suit, action, or proceeding arising out of, or related to, these Terms of Use or the eckoWALLET shall be instituted in
-          Switzerland, although we retain the right to bring any suit, action, or proceeding against you for breach of these Terms of Use in your
+          Any legal suit, action, or proceeding arising out of, or related to, these Terms of Use or the eckoWALLET shall be instituted in the courts
+          of England and Wales, although we retain the right to bring any suit, action, or proceeding against you for breach of these Terms of Use in your
           country of residence or any other relevant country. You waive any and all objections to the exercise of jurisdiction over you by such venue
           (including any claims of inconvenient forum) in such courts. YOU IRREVOCABLY AND UNCONDITIONALLY WAIVE ANY RIGHT YOU MAY HAVE TO A TRIAL BY
-          JURY IN RESPECT OF ANY LEGAL SUIT, ACTION, OR PROCEEDING ARISING OUT OF, OR RELATED TO, THESE TERMS OF USE OR THE eckoDEX SERVICES, TO THE
+          JURY IN RESPECT OF ANY LEGAL SUIT, ACTION, OR PROCEEDING ARISING OUT OF, OR RELATED TO, THESE TERMS OF USE OR THE eckoWALLET SERVICES, TO THE
           FULLEST EXTENT PERMITTED UNDER APPLICABLE LAW.
         </Label>
 
@@ -486,7 +486,7 @@ const TermsOfUseContainer = () => {
         </Label>
         <Label fontSize={20} fontFamily="medium">
           All feedback, comments, requests for technical support, and other communications relating to eckoWALLET should be directed to:
-          contact@ecko.finance.
+          info@runonflux.io.
         </Label>
       </FlexContainer>
     </TermsOfUseWrapper>

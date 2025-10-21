@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# eckoWALLET Landing Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official landing website for eckoWALLET - The Kadena Ecosystem Gateway
 
-## Available Scripts
+## About eckoWALLET
 
-In the project directory, you can run:
+eckoWALLET is a feature-rich, non-custodial cryptocurrency wallet specifically designed for the Kadena blockchain ecosystem. Available on multiple platforms including iOS, Android, Chrome, Brave, and Edge browsers.
 
-### `yarn start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Buy & Sell Crypto**: Integrated fiat on-ramp and off-ramp powered by OnRamper
+- **Multi-Language Support**: 30+ languages including English, Spanish, French, German, Chinese, Japanese, and more
+- **Dark Theme**: Multiple theme options including Light, Dark, and Dark Blue themes
+- **NFT Management**: Full support for Kadena NFTs including Marmalade collections
+- **Analytics Dashboard**: Portfolio tracking, P&L charts, and asset allocation visualization
+- **Hardware Wallet Support**: Integration with Ledger and SpireKey
+- **WalletConnect v2**: Seamless dApp connections
+- **Auto Token Detection**: Automatically detects and displays supported tokens
+- **Cross-Chain Transfers**: Easy movement of assets across all 20 Kadena chains
+- **Swap Functionality**: Built-in token swapping
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Company
 
-### `yarn test`
+eckoWALLET is developed and maintained by **InFlux Technologies Limited**, a company incorporated in the United Kingdom. The project is part of the RunOnFlux ecosystem, alongside other products like SSP Wallet and Zelcore.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `yarn build`
+This is a React-based landing website built with:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React 17** with styled-components
+- **React Router** for navigation
+- **Swiper** for carousel/slider components
+- **Semantic UI** for UI components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `yarn eject`
+- Node.js 18.x
+- Yarn package manager
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Install dependencies
+yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Start development server
+yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Build for production
+yarn build
+```
+
+### Available Scripts
+
+- `yarn start` - Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
+- `yarn build` - Builds the app for production to the `build` folder
+- `yarn test` - Launches the test runner in interactive watch mode
+
+## Deployment
+
+The website is deployed on Vercel and accessible at:
+- https://eckowallet.com (primary domain)
+
+## Project Links
+
+- **Chrome Extension**: [GitHub Repository](https://github.com/RunOnFlux/ecko-wallet)
+- **Mobile Apps**: [GitHub Repository](https://github.com/RunOnFlux/ecko-wallet-mobile)
+- **Documentation**: Coming soon
+- **Community**: [Discord](https://discord.gg/flux)
+
+## Roadmap Highlights
+
+### 2024-2025 Accomplishments ✅
+
+- Infrastructure migration to RunOnFlux
+- Complete infrastructure rewrite with load balancing and monitoring
+- Migration to self-hosted enterprise-grade OVH cloud
+- Node.js and dependency updates
+- Crypto library migration to KadenaJS
+- CI/CD process implementation
+- Comprehensive test suite
+- 30+ language translations via Crowdin
+- Fiat on-ramp and off-ramp (OnRamper integration)
+- Automatic token detection system
+- Dark theme implementation
+- NFT section with Marmalade support
+- Analytics dashboard
+- WalletConnect v2 integration
+- Hardware wallet support (Ledger)
+- SpireKey integration
+- FLUX token as default
+- Kadena Indexer infrastructure setup
+
+### In Progress / Planned
+
+- Kadena Indexer integration to dextools
+- SDK documentation and guides (migration to Docusaurus)
+- Bug bounty program
+- Security audit (funding dependent)
+
+## Security
+
+- **Non-custodial**: Users maintain full control over their private keys
+- **Security Audit**: Audited by CertiK
+- **Open Source**: Transparent and community-driven development
+
+## Contributing
+
+Contributions are welcome! Please check out our contribution guidelines (coming soon).
+
+## Support
+
+For support, please:
+- Email: info@runonflux.io
+- Join our [Discord community](https://discord.gg/flux)
+- Check our [Documentation](https://docs.eckowallet.com)
+
+## License
+
+All rights reserved © 2025 InFlux Technologies Limited
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Kadena Website](https://kadena.io)
+- [RunOnFlux](https://runonflux.io)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)

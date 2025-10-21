@@ -21,16 +21,16 @@ const PrivacyPolicyContainer = () => {
           eckoWALLET Privacy Policy
         </Label>
         <Label fontSize={22} fontFamily="medium">
-          Last Updated: February 20, 2023
+          Last Updated: January 21, 2025
         </Label>
         <Label fontSize={20} fontFamily="medium">
-          This Privacy Policy is entered into by and between you and eckoDAO, a Swiss non-profit association (collectively, the “Company,” “we,” or
-          “us”) and eckoHUB DMCC, a UAE LLC which hosts eckoWALLET IP for the association.
+          This Privacy Policy is entered into by and between you and InFlux Technologies Limited, a company incorporated in the United Kingdom
+          (collectively, the "Company," "we," or "us").
           <br />
           <br />
-          At eckoDAO, we are committed to protecting your privacy and the security of your personal data. This Privacy Policy for eckoWALLET explains
-          how we collect, use, and share data in connection with our non-custodial wallet service (the "Services"). By using the Services, you agree
-          to the terms of this Policy.
+          At InFlux Technologies Limited, we are committed to protecting your privacy and the security of your personal data. This Privacy Policy
+          for eckoWALLET explains how we collect, use, and share data in connection with our non-custodial wallet service (the "Services"). By using
+          the Services, you agree to the terms of this Policy.
         </Label>
 
         <Label fontSize={32} fontFamily="medium">
@@ -85,7 +85,7 @@ const PrivacyPolicyContainer = () => {
         <Label fontSize={20} fontFamily="medium">
           Under the CCPA, California residents have certain rights with respect to their personal data, including the right to know, request deletion,
           opt-out of data sales, and not be discriminated against for exercising any of these rights. We do not sell personal information and you may
-          submit a request to contact@ecko.finance.
+          submit a request to info@runonflux.io.
         </Label>
 
         <Label fontSize={32} fontFamily="medium">
@@ -101,7 +101,7 @@ const PrivacyPolicyContainer = () => {
         </Label>
         <Label fontSize={20} fontFamily="medium">
           If you have any questions or concerns about our data collection, use, and sharing practices, or if you wish to exercise your rights under
-          GDPR or CCPA, please contact us at contact@ecko.finance.
+          GDPR or CCPA, please contact us at info@runonflux.io.
         </Label>
       </FlexContainer>
     </PrivacyPolicyWrapper>

@@ -138,18 +138,66 @@ const CONFIGURATION = {
     position: 12,
     text: [{ text: 'NFTs integration' }],
     isCompleted: true,
+  },
+  FIAT_OFF_RAMP: {
+    position: 13,
+    text: [{ text: 'Fiat off Ramp' }],
+    isCompleted: true,
+  },
+  INFRASTRUCTURE_MIGRATION: {
+    position: 14,
+    text: [{ text: 'Infrastructure Migration to RunOnFlux' }],
+    isCompleted: true,
+  },
+  CI_CD: {
+    position: 15,
+    text: [{ text: 'CI/CD & Test Suite' }],
+    isCompleted: true,
+  },
+  INTERNATIONALIZATION: {
+    position: 16,
+    text: [{ text: '30+ Languages Support' }],
+    isCompleted: true,
+  },
+  DARK_THEME: {
+    position: 17,
+    text: [{ text: 'Dark Theme' }],
+    isCompleted: true,
+  },
+  AUTO_TOKEN_DETECTION: {
+    position: 18,
+    text: [{ text: 'Auto Token Detection' }],
+    isCompleted: true,
+  },
+  ANALYTICS_DASHBOARD: {
+    position: 19,
+    text: [{ text: 'Analytics Dashboard' }],
+    isCompleted: true,
+  },
+  WALLETCONNECT_V2: {
+    position: 20,
+    text: [{ text: 'WalletConnect v2' }],
+    isCompleted: true,
+  },
+  HARDWARE_WALLET: {
+    position: 21,
+    text: [{ text: 'Hardware Wallet Support (Ledger)' }],
+    isCompleted: true,
+  },
+  SPIREKEY: {
+    position: 22,
+    text: [{ text: 'SpireKey Integration' }],
+    isCompleted: true,
     isMain: true,
   },
-  SDK_EASY_INTEGRATION_KIT: {
-    position: 13,
-    text: [{ text: 'SDK easy integration kit' }],
+  KADENA_INDEXER: {
+    position: 23,
+    text: [{ text: 'Kadena Indexer Infrastructure' }],
     isCompleted: false,
   },
-
-  FIAT_OFF_RAMP: {
-    position: 14,
-    text: [{ text: 'Fiat off Ramp' }],
-
+  SDK_EASY_INTEGRATION_KIT: {
+    position: 24,
+    text: [{ text: 'SDK Documentation & Guides' }],
     isCompleted: false,
   },
 };

@@ -4,7 +4,6 @@ import {
   DocushieldIcon,
   GallinasIcon,
   HypeIcon,
-  KaddexIcon,
   KadenaBullsIcon,
   KdLaunchIcon,
   KdswapIcon,
@@ -15,11 +14,6 @@ import {
 } from '../assets';
 
 export const PROJECTS = {
-  KADDEX: {
-    name: 'eckoDEX',
-    icon: <KaddexIcon />,
-    link: 'https://dex.ecko.finance',
-  },
   ASWAP: {
     name: 'aswap',
     icon: <AswapIcon />,
