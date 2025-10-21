@@ -5,264 +5,31 @@ import theme from '../../../styles/theme';
 const whiteGrey = theme.colors.lightGrey;
 
 const CONFIGURATION = {
-  BETA_RELEASE: {
-    circle: { x: 490, y: 190 },
-    text: {
-      x: 437,
-      y: 255,
-      tspan: [{ x: 0, y: 0, text: 'Beta release' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-  ECKOWALLET_V1: {
-    circle: { x: 740, y: 190 },
-    text: {
-      x: 750,
-      y: 255,
-      tspan: [{ x: -66.71, y: 0, text: 'eckoWALLET v1' }],
-    },
-
-    color: theme.colors.lightYellow,
-  },
-  GOOGLE_CHROME_STORE: {
-    circle: { x: 990, y: 190 },
-    text: {
-      x: 950,
-      y: 255,
-      tspan: [
-        { x: 0, y: 0, text: 'Google Chrome' },
-        { x: 30, y: 25, text: 'Store' },
-      ],
-    },
-
-    color: theme.colors.lightYellow,
-  },
-  ECKODEX_INTEGRATION: {
-    circle: { x: 1240, y: 190 },
-    text: {
-      x: 1200,
-      y: 255,
-      tspan: [
-        { x: 20, y: 0, text: 'eckoDEX' },
-        { x: 0, y: 25, text: 'Integration' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-  KD_LAUNCH_INTEGRATION: {
-    circle: { x: 1490, y: 190 },
-    text: {
-      x: 1506,
-      y: 255,
-      tspan: [
-        { x: -38.66, y: 0, text: 'KDLaunch' },
-        { x: -58.09, y: 25, text: 'integration' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  BAND_REFRESH: {
-    circle: { x: 1490, y: 381 },
-    text: {
-      x: 1454,
-      y: 446,
-      tspan: [{ x: -10.28, y: 0, text: 'Brand Refresh' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  MOBILE_APP: {
-    circle: { x: 1240, y: 381 },
-
-    text: {
-      x: 1250,
-      y: 446,
-      tspan: [
-        { x: -50.28, y: 0, text: 'Mobile apps' },
-        { x: -64, y: 25, text: 'iOS - Android' },
-      ],
-    },
-
-    color: theme.colors.lightYellow,
-  },
-
-  DOWNLOADS: {
-    circle: { x: 990, y: 381 },
-    text: {
-      x: 990,
-      y: 446,
-      tspan: [{ x: -68.09, y: 0, text: '30,000 Downloads' }],
-    },
-
-    color: theme.colors.lightYellow,
-  },
-
-  ECKOWALLET_V2: {
-    circle: { x: 740, y: 381 },
-    text: {
-      x: 778,
-      y: 446,
-      tspan: [{ x: -92, y: 0, text: 'eckoWALLET v2' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  SWAP_FUNTIONALITY: {
-    circle: { x: 490, y: 381 },
-    text: {
-      x: 510,
-      y: 446,
-      tspan: [{ x: -95.47, y: 0, text: 'Swap Functionality' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  AUDIT: {
+  FIAT_ON_OFF_RAMP: {
     circle: { x: 490, y: 596 },
     text: {
-      x: 522,
+      x: 435,
       y: 662,
-      tspan: [{ x: -44.61, y: 0, text: 'Audit' }],
+      tspan: [{ x: 0, y: 0, text: 'Fiat on/off Ramp' }],
     },
-
     color: theme.colors.lightYellow,
   },
 
-  FIAT_ON_RAMP: {
+  SWAP_FUNCTIONALITY: {
     circle: { x: 740, y: 596 },
-
     text: {
-      x: 750,
+      x: 680,
       y: 662,
-      tspan: [{ x: -47.71, y: 0, text: 'Fiat on Ramp' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  NFTs_INTEGRATION: {
-    circle: { x: 990, y: 596 },
-    text: {
-      x: 1010,
-      y: 662,
-      tspan: [{ x: -85, y: 0, text: 'NFTs integration' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  FIAT_OFF_RAMP: {
-    circle: { x: 1240, y: 596 },
-    text: {
-      x: 1254,
-      y: 662,
-      tspan: [{ x: -70.61, y: 0, text: 'Fiat off Ramp' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  INFRASTRUCTURE_MIGRATION: {
-    circle: { x: 1490, y: 596 },
-    text: {
-      x: 1420,
-      y: 662,
-      tspan: [
-        { x: 30, y: 0, text: 'Infrastructure' },
-        { x: 25, y: 25, text: 'to RunOnFlux' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  CI_CD: {
-    circle: { x: 1490, y: 400 },
-    text: {
-      x: 1450,
-      y: 365,
-      tspan: [
-        { x: 0, y: 0, text: 'CI/CD &' },
-        { x: -15, y: 25, text: 'Test Suite' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  INTERNATIONALIZATION: {
-    circle: { x: 1240, y: 400 },
-    text: {
-      x: 1190,
-      y: 365,
-      tspan: [
-        { x: 10, y: 0, text: '30+ Languages' },
-        { x: 25, y: 25, text: 'Support' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  DARK_THEME: {
-    circle: { x: 990, y: 400 },
-    text: {
-      x: 960,
-      y: 365,
-      tspan: [{ x: 0, y: 0, text: 'Dark Theme' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  AUTO_TOKEN_DETECTION: {
-    circle: { x: 740, y: 400 },
-    text: {
-      x: 690,
-      y: 365,
-      tspan: [
-        { x: 10, y: 0, text: 'Auto Token' },
-        { x: 15, y: 25, text: 'Detection' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  ANALYTICS_DASHBOARD: {
-    circle: { x: 490, y: 400 },
-    text: {
-      x: 450,
-      y: 365,
-      tspan: [
-        { x: 0, y: 0, text: 'Analytics' },
-        { x: -5, y: 25, text: 'Dashboard' },
-      ],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  WALLETCONNECT_V2: {
-    circle: { x: 490, y: 220 },
-    text: {
-      x: 440,
-      y: 285,
-      tspan: [{ x: 0, y: 0, text: 'WalletConnect v2' }],
-    },
-    color: theme.colors.lightYellow,
-  },
-
-  HARDWARE_WALLET: {
-    circle: { x: 740, y: 220 },
-    text: {
-      x: 700,
-      y: 285,
-      tspan: [
-        { x: 0, y: 0, text: 'Hardware Wallet' },
-        { x: 20, y: 25, text: '(Ledger)' },
-      ],
+      tspan: [{ x: 0, y: 0, text: 'Swap Functionality' }],
     },
     color: theme.colors.lightYellow,
   },
 
   SPIREKEY: {
-    circle: { x: 990, y: 220 },
+    circle: { x: 990, y: 596 },
     text: {
-      x: 950,
-      y: 285,
+      x: 945,
+      y: 662,
       tspan: [
         { x: 0, y: 0, text: 'SpireKey' },
         { x: -10, y: 25, text: 'Integration' },
@@ -272,29 +39,141 @@ const CONFIGURATION = {
   },
 
   KADENA_INDEXER: {
-    circle: { x: 1240, y: 220 },
+    circle: { x: 1240, y: 596 },
     text: {
-      x: 1185,
-      y: 285,
+      x: 1190,
+      y: 662,
       tspan: [
-        { x: 10, y: 0, text: 'Kadena Indexer' },
-        { x: 15, y: 25, text: 'Infrastructure' },
+        { x: 0, y: 0, text: 'Kadena' },
+        { x: -10, y: 25, text: 'Indexer' },
       ],
     },
     color: whiteGrey,
   },
 
   SDK_DOCUMENTATION: {
-    circle: { x: 1490, y: 220 },
+    circle: { x: 1490, y: 596 },
     text: {
-      x: 1440,
-      y: 285,
+      x: 1430,
+      y: 662,
       tspan: [
-        { x: 5, y: 0, text: 'SDK Docs' },
-        { x: -5, y: 25, text: '& Guides' },
+        { x: 0, y: 0, text: 'SDK Documentation' },
+        { x: 35, y: 25, text: 'Rework' },
       ],
     },
     color: whiteGrey,
+  },
+
+  CI_CD: {
+    circle: { x: 1490, y: 381 },
+    text: {
+      x: 1455,
+      y: 446,
+      tspan: [{ x: 0, y: 0, text: 'CI/CD Pipeline' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  INTERNATIONALIZATION: {
+    circle: { x: 1240, y: 381 },
+    text: {
+      x: 1180,
+      y: 446,
+      tspan: [{ x: 0, y: 0, text: '30+ Languages' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  DARK_THEME: {
+    circle: { x: 990, y: 381 },
+    text: {
+      x: 950,
+      y: 446,
+      tspan: [{ x: 0, y: 0, text: 'Dark Theme' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  AUTO_TOKEN_DETECTION: {
+    circle: { x: 740, y: 381 },
+    text: {
+      x: 685,
+      y: 446,
+      tspan: [
+        { x: 0, y: 0, text: 'Auto Token' },
+        { x: 0, y: 25, text: 'Detection' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  ANALYTICS_DASHBOARD: {
+    circle: { x: 490, y: 381 },
+    text: {
+      x: 440,
+      y: 446,
+      tspan: [
+        { x: 0, y: 0, text: 'Analytics' },
+        { x: -10, y: 25, text: 'Dashboard' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  WALLETCONNECT_V2: {
+    circle: { x: 490, y: 190 },
+    text: {
+      x: 425,
+      y: 255,
+      tspan: [{ x: 0, y: 0, text: 'WalletConnect v2' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  HARDWARE_WALLET: {
+    circle: { x: 740, y: 190 },
+    text: {
+      x: 675,
+      y: 255,
+      tspan: [
+        { x: 0, y: 0, text: 'Hardware Wallet' },
+        { x: 5, y: 25, text: '(Ledger)' },
+      ],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  DOWNLOADS: {
+    circle: { x: 990, y: 190 },
+    text: {
+      x: 930,
+      y: 255,
+      tspan: [{ x: 0, y: 0, text: '35,000 Active Users' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  NFTs_INTEGRATION: {
+    circle: { x: 1240, y: 190 },
+    text: {
+      x: 1180,
+      y: 255,
+      tspan: [{ x: 0, y: 0, text: 'NFTs integration' }],
+    },
+    color: theme.colors.lightYellow,
+  },
+
+  INFRASTRUCTURE_MIGRATION: {
+    circle: { x: 1490, y: 190 },
+    text: {
+      x: 1415,
+      y: 255,
+      tspan: [
+        { x: 0, y: 0, text: 'Infrastructure to' },
+        { x: 5, y: 25, text: 'RunOnFlux' },
+      ],
+    },
+    color: theme.colors.lightYellow,
   },
 };
 const FLAG = {

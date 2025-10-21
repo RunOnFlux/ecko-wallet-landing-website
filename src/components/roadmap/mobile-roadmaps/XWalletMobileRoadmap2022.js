@@ -69,135 +69,80 @@ const XWalletMobileRoadmap2022 = ({ color }) => {
 export default XWalletMobileRoadmap2022;
 
 const CONFIGURATION = {
-  BETA_RELEASE: {
-    position: 0,
-    text: [{ text: 'Beta release' }],
-    isCompleted: true,
-  },
-  ECKOWALLET_V1: {
-    position: 1,
-    text: [{ text: 'eckoWALLET v1' }],
-
-    isCompleted: true,
-  },
-  GOOGLE_CHROME_STORE: {
-    position: 2,
-    text: [{ text: 'Google Chrome Store' }],
-
-    isCompleted: true,
-  },
-  ECKODEX_INTEGRATION: {
-    position: 3,
-    text: [{ text: 'eckoDEX Integration' }],
-    isCompleted: true,
-  },
-  KD_LAUNCH_INTEGRATION: {
-    position: 4,
-    text: [{ text: 'KDLaunch integration' }],
-    isCompleted: true,
-  },
-
-  BAND_REFRESH: {
-    position: 5,
-    text: [{ text: 'Brand Refresh' }],
-    isCompleted: true,
-  },
-
-  MOBILE_APP: {
-    position: 6,
-    text: [{ text: 'Mobile app' }],
-    isCompleted: true,
-  },
   DOWNLOADS: {
-    position: 7,
-    text: [{ text: '30,000 Downloads' }],
-    isCompleted: true,
-  },
-  ECKOWALLET_V2: {
-    position: 8,
-    text: [{ text: 'eckoWALLET v2' }],
+    position: 0,
+    text: [{ text: '35,000 Active Users' }],
     isCompleted: true,
   },
   SWAP_FUNTIONALITY: {
-    position: 9,
+    position: 1,
     text: [{ text: 'Swap Functionality' }],
     isCompleted: true,
   },
-  AUDIT: {
-    position: 10,
-    text: [{ text: 'Audit' }],
-    isCompleted: true,
-  },
-
-  FIAT_ON_RAMP: {
-    position: 11,
-    text: [{ text: 'Fiat on Ramp' }],
+  FIAT_ON_OFF_RAMP: {
+    position: 2,
+    text: [{ text: 'Fiat on/off Ramp' }],
     isCompleted: true,
   },
   NFTs_INTEGRATION: {
-    position: 12,
+    position: 3,
     text: [{ text: 'NFTs integration' }],
     isCompleted: true,
   },
-  FIAT_OFF_RAMP: {
-    position: 13,
-    text: [{ text: 'Fiat off Ramp' }],
-    isCompleted: true,
-  },
   INFRASTRUCTURE_MIGRATION: {
-    position: 14,
+    position: 4,
     text: [{ text: 'Infrastructure Migration to RunOnFlux' }],
     isCompleted: true,
   },
   CI_CD: {
-    position: 15,
-    text: [{ text: 'CI/CD & Test Suite' }],
+    position: 5,
+    text: [{ text: 'CI/CD Pipeline' }],
     isCompleted: true,
   },
   INTERNATIONALIZATION: {
-    position: 16,
+    position: 6,
     text: [{ text: '30+ Languages Support' }],
     isCompleted: true,
   },
   DARK_THEME: {
-    position: 17,
+    position: 7,
     text: [{ text: 'Dark Theme' }],
     isCompleted: true,
   },
   AUTO_TOKEN_DETECTION: {
-    position: 18,
+    position: 8,
     text: [{ text: 'Auto Token Detection' }],
     isCompleted: true,
   },
   ANALYTICS_DASHBOARD: {
-    position: 19,
+    position: 9,
     text: [{ text: 'Analytics Dashboard' }],
     isCompleted: true,
   },
   WALLETCONNECT_V2: {
-    position: 20,
+    position: 10,
     text: [{ text: 'WalletConnect v2' }],
     isCompleted: true,
   },
   HARDWARE_WALLET: {
-    position: 21,
+    position: 11,
     text: [{ text: 'Hardware Wallet Support (Ledger)' }],
     isCompleted: true,
   },
   SPIREKEY: {
-    position: 22,
+    position: 12,
     text: [{ text: 'SpireKey Integration' }],
     isCompleted: true,
     isMain: true,
   },
   KADENA_INDEXER: {
-    position: 23,
+    position: 13,
     text: [{ text: 'Kadena Indexer Infrastructure' }],
     isCompleted: false,
   },
   SDK_EASY_INTEGRATION_KIT: {
-    position: 24,
-    text: [{ text: 'SDK Documentation & Guides' }],
+    position: 14,
+    text: [{ text: 'SDK Documentation Rework' }],
     isCompleted: false,
   },
 };
