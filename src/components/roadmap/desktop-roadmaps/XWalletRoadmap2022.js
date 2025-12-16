@@ -35,7 +35,7 @@ const CONFIGURATION = {
         { x: -10, y: 25, text: 'Integration' },
       ],
     },
-    color: '#FA41A5',
+    color: theme.colors.lightYellow,
   },
 
   KADENA_INDEXER: {
@@ -48,20 +48,20 @@ const CONFIGURATION = {
         { x: -10, y: 25, text: 'Indexer' },
       ],
     },
-    color: whiteGrey,
+    color: theme.colors.lightYellow,
   },
 
-  SDK_DOCUMENTATION: {
+  KADENA_EVM_SUPPORT: {
     circle: { x: 1490, y: 596 },
     text: {
       x: 1430,
       y: 662,
       tspan: [
-        { x: 0, y: 0, text: 'SDK Documentation' },
-        { x: 35, y: 25, text: 'Rework' },
+        { x: 0, y: 0, text: 'Kadena EVM' },
+        { x: 20, y: 25, text: 'Support' },
       ],
     },
-    color: whiteGrey,
+    color: '#FA41A5',
   },
 
   CI_CD: {
@@ -177,8 +177,8 @@ const CONFIGURATION = {
   },
 };
 const FLAG = {
-  flag: 'translate(1004 568)',
-  shadow: 'translate(984 590)',
+  flag: 'translate(1504 568)',
+  shadow: 'translate(1484 590)',
 };
 
 const XWalletRoadmap2022 = ({ className }) => {
@@ -269,7 +269,7 @@ const XWalletRoadmap2022 = ({ className }) => {
           <line
             id="Line_585"
             data-name="Line 585"
-            x2="635"
+            x2="886"
             transform="translate(369 611)"
             fill="none"
             stroke={theme.colors.lightYellow}

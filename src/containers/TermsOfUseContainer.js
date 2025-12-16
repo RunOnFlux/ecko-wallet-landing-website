@@ -119,6 +119,14 @@ const TermsOfUseContainer = () => {
         </Label>
 
         <Label fontSize={32} fontFamily="medium">
+          Crypto Rewards
+        </Label>
+        <Label fontSize={20} fontFamily="medium">
+          We are offering crypto rewards such as Crypto Cashback through Bring Labs Ltd (https://bring.network), and the rewards are governed by
+          Bring's Website Terms and Bring's Rewards Terms.
+        </Label>
+
+        <Label fontSize={32} fontFamily="medium">
           Custody and Ownership of Digital Assets
         </Label>
         <Label fontSize={20} fontFamily="medium">

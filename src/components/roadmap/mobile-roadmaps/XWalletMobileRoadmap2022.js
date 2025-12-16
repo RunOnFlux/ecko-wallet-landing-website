@@ -133,16 +133,16 @@ const CONFIGURATION = {
     position: 12,
     text: [{ text: 'SpireKey Integration' }],
     isCompleted: true,
-    isMain: true,
   },
   KADENA_INDEXER: {
     position: 13,
     text: [{ text: 'Kadena Indexer Infrastructure' }],
-    isCompleted: false,
+    isCompleted: true,
   },
-  SDK_EASY_INTEGRATION_KIT: {
+  KADENA_EVM_SUPPORT: {
     position: 14,
-    text: [{ text: 'SDK Documentation Rework' }],
+    text: [{ text: 'Kadena EVM Support' }],
     isCompleted: false,
+    isMain: true,
   },
 };
