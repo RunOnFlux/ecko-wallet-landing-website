@@ -57,6 +57,11 @@ export const FOOTER_DOWNLOAD = {
       target: '_blank',
       icon: <BraveIcon />,
     },
+    {
+      text: 'Cashback Portal',
+      href: 'https://ecko.bringweb3.io/',
+      target: '_blank',
+    },
   ],
 };
 export const FOOTER_LEARN = {

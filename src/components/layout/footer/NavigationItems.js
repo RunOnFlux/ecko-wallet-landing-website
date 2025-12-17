@@ -30,6 +30,16 @@ const NavigationItems = ({ fontSize, color, onClick, disableHover }) => {
       </NavigationItem>
 
       <NavigationItem
+        href="https://ecko.bringweb3.io/"
+        target="_blank"
+        fontSize={fontSize}
+        color={color}
+        onClick={onClick}
+        disableHover={disableHover}
+      >
+        Cashback
+      </NavigationItem>
+      <NavigationItem
         href="https://runonflux.com"
         target="_blank"
         fontSize={fontSize}
@@ -53,7 +63,7 @@ const NavigationItems = ({ fontSize, color, onClick, disableHover }) => {
   );
 };
 
-export const NavigationItem = ({ id, className, href, children, fontSize, color, onClick, disableHover }) => {
+export const NavigationItem = ({ id, className, href, target, children, fontSize, color, onClick, disableHover }) => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -61,6 +71,8 @@ export const NavigationItem = ({ id, className, href, children, fontSize, color,
       id={id}
       className={className}
       href={href}
+      target={target}
+      rel={target === '_blank' ? 'noopener noreferrer' : undefined}
       hover={hover}
       onClick={onClick}
       onMouseOver={() => setHover(true)}
